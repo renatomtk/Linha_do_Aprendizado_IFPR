@@ -1,0 +1,39 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div {
+    height: 150px;
+    width: 400px;
+    padding: 80px;
+}
+
+.box1 {
+    background-color: aliceblue;
+    position: static; /* Não permite reposicionar o box */
+}
+
+.box2 {
+    background-color: antiquewhite;
+    position: relative; /* Altera o posicionamento em relação onde o box foi definido */
+    left: 440px;
+    bottom: 50px;
+}
+
+.box3 {
+    background-color: azure;
+    position: absolute;
+    top: 500px;
+    left: 880px;
+}
+
+.box4 {
+    background-color: ghostwhite;
+    /* position:  fixed; */ /* Fixa a box na tela enquanto rola a tela */
+}
+
+.box5 {
+    background-color: beige;
+    /* position: sticky; */ 
+    bottom: 500px;
+}

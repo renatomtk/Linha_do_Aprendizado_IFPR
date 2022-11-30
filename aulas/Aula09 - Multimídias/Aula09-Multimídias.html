@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimídias</title>
+
+</head>
+
+<body>
+    
+    <h1>Multimidias</h1>
+        <p>São diversos tipos de mídias, tais como: imagens, vídeos, aúdios, sites, etc.</p>
+
+        <h2>Incorporando Multimidias ao site</h2>
+            <h3>Tag iframe</h3>
+            
+            <h3>Incorporar sites</h3>
+            <iframe src="https://irati.ifpr.edu.br" frameborder="1" width="100%" height="300px"></iframe>
+
+            <h3>Incorporar áudio</h3>
+            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/273203314&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/red-hot-chili-peppers-official" title="Red Hot Chili Peppers" target="_blank" style="color: #cccccc; text-decoration: none;">Red Hot Chili Peppers</a> · <a href="https://soundcloud.com/red-hot-chili-peppers-official/otherside" title="Otherside" target="_blank" style="color: #cccccc; text-decoration: none;">Otherside</a></div>
+
+            <h3>Incorporar vídeos</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/p5vJO1d1y8Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <h2>Tag de vídeo</h2>
+        <video poster="video/Bike.jpg" controls>
+            <source src="video/Bike.mp4" type="video/mp4">
+            <source src="video/Bike.ogv" type="video/ogv">
+            <source src="video/Bike.webm" type="video/webm">
+        </video> 
+
+        <h2>Tag de aúdio</h2>
+        <audio preload="metadata" controls>
+            <source src="audio/Hey Sailor - Letter Box.mp3" type="audio/mp3"> 
+        </audio>
+
+        <h2>Tag picture</h2>
+        <picture>
+            <source media="(max-width:500px)" srcset="img/bike_110.jpg">
+            <source media="(max-width:700px)" srcset="img/bike_320.jpg">
+            <source media="(max-width:900px)" srcset="img/bike_640.jpg">
+
+            <img src="img/bike_full.jpg">
+        </picture>
+
+</body>
+
+</html>

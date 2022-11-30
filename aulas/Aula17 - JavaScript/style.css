@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    padding: 1%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+a:visited {
+    color: rgb(255, 145, 255);
+}
+
+a:active {
+    color: rgb(170, 58, 170);
+}
+

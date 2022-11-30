@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px solid grey; /* ESPESSURA / TIPO / COR */
+    /* margin: 100px; APLICA 100PX NOS 4 LADOS*/    
+    /* margin-top: 100px APLICA 100PX NO TOPO;
+    margin-right: 60px APLICA 60PX NA DIREITA;
+    margin-bottom: 120px APLICA 120PX EMBAIXO;
+    margin-left: 50px; APLICA 50PX NA ESQUERDA */
+    padding: 15px;
+    margin: 100px 80px; /* APLICA 100PX EM CIMA E EMBAIXO, 80PX NA DIREITA E ESQUERDA */
+}
+
+h1 {
+    background-color: rgb(167, 167, 167);
+}

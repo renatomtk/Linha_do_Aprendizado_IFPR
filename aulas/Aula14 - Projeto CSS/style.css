@@ -1,0 +1,60 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.principal {
+    width: 95%;
+}
+
+.logo {
+    position: relative;
+    top: 5px;
+    left: 90px;
+    margin: 5px;
+}
+
+.navbar {
+    position: absolute;
+    top: 40px;
+    left: 1650px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(43, 173, 43);
+}
+
+a:active {
+    color: rgb(19, 110, 19);
+}
+
+a:visited {
+    color: blue;
+}
+
+.conteudo {
+    text-align: center;
+}
+
+.conteudo2 {
+    position: relative;
+    left: 100px;
+}
+
+.conteudo3 {
+    position: relative;
+    left: 100px;
+    background-color: none;
+}
+
+.rodape {
+    margin-left: 100px;
+}
+
+.direitos {
+    position: relative;
+    left: 700px;
+}

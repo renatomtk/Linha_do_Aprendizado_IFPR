@@ -1,0 +1,89 @@
+div {
+    background-color: black;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.b1 {
+    background-color: antiquewhite;
+    color: mediumslateblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px dashed black;
+    width: 60px;
+    height: 20px;
+}
+
+.b2 {
+    background-color: aliceblue;
+    color: mediumslateblue;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px dashed black;
+    width: 120px;
+    height: 40px;
+}
+
+.agrupamento1 {
+    background-color: darkgrey;
+    color: black;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.agrupamento2 {
+    background-color: lightgray;
+    color: black;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+#unico {
+    background-color: snow;
+    color: black;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.personalizado {
+    background-color: silver;
+    color: black;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.personalizado:hover {
+    border: 3.5px solid black;
+}
+
+.pseudo::selection{
+    color: red;
+    background: darkslategrey;
+}
+
+/* unvisited link */
+a:link {
+    color: green;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: blue;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: red;
+  }
+  
+  /* selected link */
+  a:active {
+    color: yellow;
+  }
+
+  
